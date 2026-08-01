@@ -1,9 +1,9 @@
 import pandas as pd
 
-laps_df = pd.read_csv('f1_2023_all_driver_laps.csv')
-gaps_df = pd.read_csv('f1_2023_gaps.csv')
-weather_df = pd.read_csv('f1_2023_weather.csv')
-merged_df = pd.read_csv('f1_2023_merged.csv')
+laps_df = pd.read_csv('f1_laps_merged.csv')
+gaps_df = pd.read_csv('f1_gaps_merged.csv')
+weather_df = pd.read_csv('f1_weather_merged.csv')
+merged_df = pd.read_csv('f1_merged.csv')
 
 print(merged_df['TrackStatus'].unique())
 print(merged_df['TrackStatus'].value_counts())
@@ -23,4 +23,4 @@ print(sample[sample['Driver'] == 'VER'][['LapNumber', 'Stint', 'Compound', 'Tyre
 lap_model_df = merged_df[merged_df['is_clean_lap'] == True].copy()
 lap_model_df['LapTime_Seconds'] = pd.to_timedelta(lap_model_df['LapTime']).dt.total_seconds()
 
-lap_model_df.to_csv('f1_2023_lap_model_data.csv', index=False)
+lap_model_df.to_csv('f1_lap_model_data.csv', index=False)

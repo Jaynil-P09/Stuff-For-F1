@@ -37,4 +37,4 @@ def export_season_gaps(year):
     # 5. Export results
     pd.DataFrame(all_gaps).to_csv(f"f1_{year}_gaps.csv", index=False)
 
-export_season_gaps(2023)
+export_season_gaps(2025)

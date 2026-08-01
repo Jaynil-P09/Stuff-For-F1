@@ -5,7 +5,7 @@ import os
 os.makedirs('fastf1_cache', exist_ok=True)
 fastf1.Cache.enable_cache('fastf1_cache')
 
-year = 2023
+year = 2025
 all_season_laps = []
 
 schedule = fastf1.get_event_schedule(year)

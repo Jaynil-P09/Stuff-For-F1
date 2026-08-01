@@ -5,7 +5,7 @@ import pandas as pd
 fastf1.Cache.enable_cache('f1_2023_weather') 
 
 # Define your target season
-season_year = 2023
+season_year = 2025
 session_type = 'R'  # 'R' for Race, 'Q' for Qualifying, 'FP1' for Practice 1
 
 # 2. Get the entire season schedule
