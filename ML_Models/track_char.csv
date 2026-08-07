@@ -1,9 +1,9 @@
 EventName,CircuitLength_km,NumCorners,NumDRSZones,TrackDirection,AvgSpeed_kmh,ElevationChange_m,DownforceLevel
-Bahrain Grand Prix,5.412,15,3,clockwise,210,16.9,medium
+Bahrain Grand Prix,5.412,15,3,Clockwise,210,16.9,medium
 Saudi Arabian Grand Prix,6.174,27,3,counterclockwise,250,2.8,low
 Australian Grand Prix,5.278,14,4,Clockwise,250,2.6,medium
-Azerbaijan Grand Prix,6.003,20,2,Counterclockwise,200,26.8,low
-Miami Grand Prix,5.412,19,3,Counterclockwise,224,7,high
+Azerbaijan Grand Prix,6.003,20,2,counterclockwise,200,26.8,low
+Miami Grand Prix,5.412,19,3,counterclockwise,224,7,high
 Monaco Grand Prix,3.337,19,1,Clockwise,150,42,high
 Spanish Grand Prix,4.357,14,2,Clockwise,215,29.6,high
 Canadian Grand Prix,4.361,14,3,Clockwise,212,5.2,low
@@ -12,7 +12,7 @@ British Grand Prix,5.891,18,2,Clockwise,233,25,high
 Hungarian Grand Prix,4.381,14,2,Clockwise,200,34.7,high
 Belgian Grand Prix,7.004,19,2,Clockwise,226,102,medium
 Dutch Grand Prix,4.259,14,2,Clockwise,216,8.9,high
-Singapore Grand Prix,4.927,23,4,Counterclockwise,170,5.3,high
+Singapore Grand Prix,4.927,23,4,counterclockwise,170,5.3,high
 Italian Grand Prix,5.793,11,2,Clockwise,245,12.9,low
 Japanese Grand Prix,5.807,18,1,Clockwise,328,40.4,high
 Qatar Grand Prix,5.419,16,1,Clockwise,330,4.2,medium
@@ -21,3 +21,5 @@ United States Grand Prix,5.513,20,2,counterclockwise,206,41,high
 São Paulo Grand Prix,4.309,15,2,counterclockwise,215,43,medium
 Las Vegas Grand Prix,6.201,17,2,counterclockwise,240,12,low
 Abu Dhabi Grand Prix,5.281,16,2,counterclockwise,215,10.7,high
+Emilia Romagna Grand Prix,4.909,19,1,counterclockwise,217,34.4,medium
+Chinese Grand Prix,5.451,16,2,Clockwise,205,8,medium
