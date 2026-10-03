@@ -1,3 +1,4 @@
+
 from fastapi import APIRouter, HTTPException
 from app.schemas.requests import DegradationPredictionRequest
 from app.schemas.responses import DegradationPredictionResponse
@@ -19,4 +20,4 @@ def predict_degradation_endpoint(request: DegradationPredictionRequest):
         request.track_temp, request.air_temp, degradation_columns
     )
     prediction = predict_degradation(feature_row)
-    return DegradationPredictionResponse(predicted_degradation_delta_seconds=prediction)
+    return DegradationPredictionResponse(predicted_degradation=prediction)
